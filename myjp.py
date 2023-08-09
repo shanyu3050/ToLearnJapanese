@@ -167,39 +167,3 @@ while(True):
     if(rt==4):
         hanpeiyin(5)
 
-# word2=word
-# wushiyin=np.empty(shape=(100,1),dtype=str)
-# wushilen=0
-# def add(a):
-#     global wushilen,wushiyin
-#     for i in range(wushilen):
-#         if(wushiyin[i]==a):
-#             return False
-#     wushiyin[wushilen]=a
-#     wushilen=wushilen+1
-#     return True
-# for i in range(len):
-#     for j in range(anno[i].__len__()):
-#         add(anno[i][j])
-# wushiyin[75]=''
-# wushiyin[74]=''
-# wushiyin[70]=''
-# for i in range(15):
-#     wushiyin[77+i]=''
-# print(wushiyin)
-
-# def check(x):
-#     global wushiyin
-#     for i in range(100):
-#         if(wushiyin[i]==x):
-#             return '?'
-#     return x
-
-# for i in range(len):
-#     slist=list(word2[i])
-#     for j in range(word2[i].__len__()):
-#         slist[j]=check(slist[j])
-#     word2[i]=''.join(slist)
-
-# pw=pd.DataFrame({"纯汉字":word2})
-# pw.to_excel('out.xlsx')
